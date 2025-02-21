@@ -1,10 +1,10 @@
-class Night:
-  def __init__(self,color,rollno,name):
+class Good:
+  def __init__(self,color,country,name):
      self.color = color
-     self.rollno = rollno
+     self.country = country
      self.name = name
 
-k = Night("color","rollno","name")
+k = Night("Jose","red","India")
 print(k.name)
 print(k.color)
-print(k.rollno)
+print(k.country)
