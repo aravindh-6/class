@@ -1,10 +1,10 @@
 class Night:
-  def __init__(self,color,rollno,name):
+  def __init__(self,color,roll no,name):
      self.color = color
      self.rollno = rollno
      self.name = name
 
-k = Night("color","rollno","name")
-print(k.name)
-print(k.color)
-print(k.rollno)
+s = Night("black",56, "raj")
+print(s.name)
+print(s.color)
+print(s.rollno)
