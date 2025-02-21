@@ -4,7 +4,7 @@ class Good:
      self.country = country
      self.name = name
 
-k = Night("Jose","red","India")
+k = Night("Jose", "red", "India")
 print(k.name)
 print(k.color)
 print(k.country)
